@@ -11,8 +11,19 @@
     <script type="text/javascript" src="../Scripts/jquery-1.9.1.min.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.runtime.js"></script>
     <script type="text/javascript" src="/_layouts/15/sp.js"></script>
+    <script type="text/javascript" src="/_layouts/15/SP.RequestExecutor.js"></script>
+
     <meta name="WebPartPageExpansion" content="full" />
 
+    <script src="../Scripts/openxml/linq.js"></script>
+    <script src="../Scripts/openxml/jszip.js"></script>
+    <script src="../Scripts/openxml/jszip-load.js"></script>
+    <script src="../Scripts/openxml/jszip-deflate.js"></script>
+    <script src="../Scripts/openxml/jszip-inflate.js"></script>
+    <script src="../Scripts/openxml/ltxml.js"></script>
+    <script src="../Scripts/openxml/ltxml-extensions.js"></script>
+    <script src="../Scripts/openxml/openxml.js"></script>
+    
     <!-- Add your CSS styles to the following file -->
     <link rel="Stylesheet" type="text/css" href="../Content/App.css" />
 
@@ -22,17 +33,17 @@
 
 <%-- The markup in the following Content element will be placed in the TitleArea of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderPageTitleInTitleArea" runat="server">
-    Page Title
+    Create XLSX in JavaScript
 </asp:Content>
 
 <%-- The markup and script in the following Content element will be placed in the <body> of the page --%>
 <asp:Content ContentPlaceHolderID="PlaceHolderMain" runat="server">
 
-    <div>
-        <p id="message">
-            <!-- The following content will be replaced with the user name when you run the app - see App.js -->
-            initializing...
-        </p>
-    </div>
+    <p>Enter a number to place in the first column</p>
+    <input type="text" id="number" /> <input type="button" value="Create SpreadSheet" onclick="createSpreadsheet()" /><br />
+    <p>
+        <a href="../lists/documents/">Documents</a>
+    </p>
+
 
 </asp:Content>

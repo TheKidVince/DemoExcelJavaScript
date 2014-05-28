@@ -7,5 +7,13 @@
     <ProjectItemFile Source="jquery-1.9.1.min.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-1.9.1.js" Target="Scripts\" Type="ElementFile" />
     <ProjectItemFile Source="jquery-1.9.1.intellisense.js" Target="Scripts\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\jszip-deflate.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\jszip-inflate.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\jszip-load.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\jszip.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\linq.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\ltxml-extensions.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\ltxml.js" Target="Scripts\openxml\" Type="ElementFile" />
+    <ProjectItemFile Source="openxml\openxml.js" Target="Scripts\openxml\" Type="ElementFile" />
   </Files>
 </ProjectItem>

@@ -6,5 +6,13 @@
     <File Path="Scripts\jquery-1.9.1.min.js" Url="Scripts/jquery-1.9.1.min.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.js" Url="Scripts/jquery-1.9.1.js" ReplaceContent="TRUE" />
     <File Path="Scripts\jquery-1.9.1.intellisense.js" Url="Scripts/jquery-1.9.1.intellisense.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\jszip-deflate.js" Url="Scripts/openxml/jszip-deflate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\jszip-inflate.js" Url="Scripts/openxml/jszip-inflate.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\jszip-load.js" Url="Scripts/openxml/jszip-load.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\jszip.js" Url="Scripts/openxml/jszip.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\linq.js" Url="Scripts/openxml/linq.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\ltxml-extensions.js" Url="Scripts/openxml/ltxml-extensions.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\ltxml.js" Url="Scripts/openxml/ltxml.js" ReplaceContent="TRUE" />
+    <File Path="Scripts\openxml\openxml.js" Url="Scripts/openxml/openxml.js" ReplaceContent="TRUE" />
   </Module>
 </Elements>

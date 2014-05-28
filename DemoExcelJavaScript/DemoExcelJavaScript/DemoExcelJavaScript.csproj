@@ -43,10 +43,23 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <None Include="Documents List\DocumentsInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{c5dfa0ec-fb8f-444d-afe8-69c9b557d5cd}</SharePointProjectItemId>
+    </None>
+    <None Include="Documents List\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{a24df0d9-e5ca-45bd-a892-6ede7b782c9d}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d9a4225f-febd-4977-9603-6980d5f71983}</SharePointProjectItemId>
     </None>
+    <Content Include="Documents List\DocumentsInstance\Elements.xml" />
+    <Content Include="Documents List\EditDlg.htm" />
+    <Content Include="Documents List\Elements.xml" />
+    <Content Include="Documents List\FileDlg.htm" />
+    <Content Include="Documents List\Repair.aspx" />
+    <Content Include="Documents List\Schema.xml" />
+    <Content Include="Documents List\Upload.aspx" />
     <Content Include="Pages\Elements.xml" />
     <Content Include="Pages\Default.aspx" />
   </ItemGroup>
@@ -60,6 +73,14 @@
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\openxml\jszip-deflate.js" />
+    <Content Include="Scripts\openxml\jszip-inflate.js" />
+    <Content Include="Scripts\openxml\jszip-load.js" />
+    <Content Include="Scripts\openxml\jszip.js" />
+    <Content Include="Scripts\openxml\linq.js" />
+    <Content Include="Scripts\openxml\ltxml-extensions.js" />
+    <Content Include="Scripts\openxml\ltxml.js" />
+    <Content Include="Scripts\openxml\openxml.js" />
     <Content Include="Scripts\_references.js" />
   </ItemGroup>
   <ItemGroup>
